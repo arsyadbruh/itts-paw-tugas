@@ -1,0 +1,81 @@
+@import url(base.css);
+
+body {
+    font-family: 'Comfortaa', cursive;
+    padding: 20px;
+}
+
+a.navbar-brand {
+    background-color: var(--color-primary);
+    padding: 5px 13px;
+    color: white;
+    box-shadow: 5px 5px var(--color-dark);
+}
+
+a.nav-link {
+    color: var(--color-dark);
+    border: 1px solid var(--color-dark);
+    padding: 5px 13px;
+}
+
+a.nav-link:hover{
+    color: black;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    /* background-color: var(--color-primary); */
+    /* border: 1px solid ; */
+    border-radius: 0;
+    transition: box-shadow .15s ease-in-out;
+    box-shadow: 5px 5px var(--color-dark);
+
+}
+
+.img-hero {
+    border: 3px solid var(--color-dark);
+    box-shadow: 
+        7px 7px var(--color-primary);
+        /* -10px -10px var(--color-primary); */
+
+}
+
+.line-t {
+    width: 400px;
+    height: 2px;
+    background-color: black;
+}
+
+.judul-section .box-judul {
+    position: absolute;
+    background-color: var(--color-primary);
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* .icon-hobby {
+    width: 90px;
+    height: 40px;
+} */
+
+.icon-hobby > i {
+    font-size: 72px;
+    color: var(--color-dark);
+}
+
+.hobby {
+    margin-bottom: 200px;
+}
+
+.frame-view {
+    margin-top: 58px;
+}
+
+iframe {
+   box-shadow:  7px 7px var(--color-dark);
+}
+
