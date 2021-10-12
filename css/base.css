@@ -74,3 +74,13 @@ html {
     transform: translate(5px, 5px);
     box-shadow: none;
 }
+
+.push-effect-dark {
+    box-shadow: 5px 5px var(--color-dark);
+    transition: all ease-in-out 0.1s;
+}
+
+.push-effect-dark:hover{
+    transform: translate(5px, 5px);
+    box-shadow: none;
+}
