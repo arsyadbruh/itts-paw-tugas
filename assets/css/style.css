@@ -57,6 +57,10 @@ a.nav-link:hover{
     color: white;
 }
 
+#about {
+    scroll-margin-top: 5em;
+}
+
 /* .icon-hobby {
     width: 90px;
     height: 40px;
