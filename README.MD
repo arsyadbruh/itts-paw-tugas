@@ -8,6 +8,7 @@ Dibuat untuk tugas mata kuliah Pemrogaman Aplikasi Web.
 - [Bootstrap Icon](https://icons.getbootstrap.com/)
 - [Masonry](https://masonry.desandro.com/)
 - [Typed.JS](http://mattboldt.github.io/typed.js/)
+- [SweetAlert2](https://sweetalert2.github.io/)
 - [Google Font](https://fonts.google.com/)
 
 ## License
