@@ -79,3 +79,11 @@ iframe {
    box-shadow:  7px 7px var(--color-dark);
 }
 
+.player-btn {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.player-btn::before {
+    content: "clik me!";
+}
