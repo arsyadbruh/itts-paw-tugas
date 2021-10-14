@@ -11,12 +11,6 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
-      integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
-      crossorigin="anonymous"
-      async
-    ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700;900&display=swap"
       rel="stylesheet"
@@ -76,156 +70,158 @@
       </div>
     </nav>
 
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img
-            src="assets/img/avatar.jpg"
-            class="d-block mx-lg-auto img-fluid img-hero"
-            alt="Bootstrap Themes"
-            width="300"
-            height="100"
-            loading="lazy"
-          />
-        </div>
-        <div class="col-lg-6">
-          <span class="typed"></span>
-          <h1 class="fw-bold lh-1 mb-3">Muhamad Arsyad</h1>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <a
-              class="
-                border-black-1
-                p-2
-                me-md-2
-                push-effect
-                text-decoration-none text-dark
-              "
-              href="pages/resume.html"
-              >Cek Resume</a
-            >
-            <audio id="player" src="assets/audio/yahallo.mp3"></audio>
-            <button
-              class="player-btn p-2 border-black-1 push-effect-dark"
-              onclick="yahalo()"
-            ></button>
+    <main>
+      <div class="container col-xxl-8 py-5">
+        <div class="row flex-lg-row align-items-center py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="assets/img/avatar.jpg"
+              class="d-block mx-lg-auto img-fluid img-hero"
+              alt="Bootstrap Themes"
+              width="280"
+              height="90"
+            />
+          </div>
+          <div class="col-lg-6 col-sm-4 mt-5 mt-sm-0">
+            <span class="typed"></span>
+            <h1 class="fw-bold lh-1 mb-3">Muhamad Arsyad</h1>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a
+                class="
+                  border-black-1
+                  p-2
+                  me-md-2
+                  push-effect
+                  text-decoration-none text-dark
+                "
+                href="pages/resume.html"
+                >Cek Resume</a
+              >
+              <audio id="player" src="assets/audio/yahallo.mp3"></audio>
+              <button
+                class="player-btn p-2 border-black-1 push-effect-dark"
+                onclick="yahalo()"
+              >Click Me!</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="container my-5" id="about">
-      <section class="hobby">
-        <div
-          class="
-            judul-section
-            d-flex
-            justify-content-center
-            align-items-center
-            my-3
-          "
-        >
-          <div class="line-t"></div>
-          <span class="box-judul px-4 py-2 border-black-2 fs-4">Hobby</span>
-        </div>
-
-        <div class="row row-cols-1 row-cols-lg-3 g-3 mt-5">
-          <div class="col">
-            <div
-              class="
-                d-flex
-                flex-column
-                justify-content-center
-                align-items-center
-              "
-            >
-              <div
-                class="
-                  icon-hobby
-                  d-flex
-                  justify-content-center
-                  align-items-center
-                "
-              >
-                <i class="bi bi-journal-richtext"></i>
-              </div>
-              <h4>READING</h4>
-            </div>
-          </div>
-          <div class="col">
-            <div
-              class="
-                d-flex
-                flex-column
-                justify-content-center
-                align-items-center
-              "
-            >
-              <div
-                class="
-                  icon-hobby
-                  d-flex
-                  justify-content-center
-                  align-items-center
-                "
-              >
-                <i class="bi bi-code-slash"></i>
-              </div>
-              <h4>CODE</h4>
-            </div>
-          </div>
-          <div class="col">
-            <div
-              class="
-                d-flex
-                flex-column
-                justify-content-center
-                align-items-center
-              "
-            >
-              <div
-                class="
-                  icon-hobby
-                  d-flex
-                  justify-content-center
-                  align-items-center
-                "
-              >
-                <i class="bi bi-film"></i>
-              </div>
-              <h4>MOVIE</h4>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="video">
-        <div
-          class="
-            judul-section
-            d-flex
-            justify-content-center
-            align-items-center
-            my-3
-          "
-        >
-          <div class="line-t"></div>
-          <span class="box-judul px-4 py-2 border-black-2 fs-4"
-            >Karya Video</span
+  
+      <div class="container my-5" id="about">
+        <section class="hobby">
+          <div
+            class="
+              judul-section
+              d-flex
+              justify-content-center
+              align-items-center
+              my-3
+            "
           >
-        </div>
-        <div
-          class="frame-view d-flex justify-content-center align-items-center"
-        >
-          <iframe
-            width="900"
-            height="500"
-            src="https://www.youtube.com/embed/okddk0epF9Q"
-            class="border-primary-5"
+            <div class="line-t"></div>
+            <span class="box-judul px-4 py-2 border-black-2 fs-4">Hobby</span>
+          </div>
+  
+          <div class="row row-cols-1 row-cols-lg-3 g-3 mt-5">
+            <div class="col">
+              <div
+                class="
+                  d-flex
+                  flex-column
+                  justify-content-center
+                  align-items-center
+                "
+              >
+                <div
+                  class="
+                    icon-hobby
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <i class="bi bi-journal-richtext"></i>
+                </div>
+                <h4>READING</h4>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="
+                  d-flex
+                  flex-column
+                  justify-content-center
+                  align-items-center
+                "
+              >
+                <div
+                  class="
+                    icon-hobby
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <i class="bi bi-code-slash"></i>
+                </div>
+                <h4>CODE</h4>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="
+                  d-flex
+                  flex-column
+                  justify-content-center
+                  align-items-center
+                "
+              >
+                <div
+                  class="
+                    icon-hobby
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <i class="bi bi-film"></i>
+                </div>
+                <h4>MOVIE</h4>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <section class="video">
+          <div
+            class="
+              judul-section
+              d-flex
+              justify-content-center
+              align-items-center
+              my-3
+            "
           >
-          </iframe>
-        </div>
-      </section>
-    </div>
+            <div class="line-t"></div>
+            <span class="box-judul px-4 py-2 border-black-2 fs-4"
+              >Karya Video</span
+            >
+          </div>
+          <div
+            class="frame-view d-flex justify-content-center align-items-center"
+          >
+            <iframe
+              width="900"
+              height="500"
+              src="https://www.youtube.com/embed/okddk0epF9Q"
+              class="border-primary-5"
+            >
+            </iframe>
+          </div>
+        </section>
+      </div>
+    </main>
+    
 
     <footer class="mt-5 p-3">
       <div class="container">
