@@ -9,7 +9,7 @@ var typed = new Typed(".typed", {
 function yahalo() {
   document.getElementById("player").play();
   Swal.fire({
-    title: "ヾ(•ω•`)o",
+    imageUrl: './assets/img/yuigahama-yahallo.gif',
     timer: 1900,
     width: "250px",
     allowOutsideClick: false,
@@ -17,5 +17,19 @@ function yahalo() {
     allowEnterKey: false,
     showConfirmButton: false,
     showCancelButton: false,
+    background: 'transparent',
+    backdrop: 'rgba(27, 27, 27, 0.9)',
   });
+}
+
+function darkMode() {
+  var element = document.body
+  var btnDarkmode = document.getElementById('btn-darkmode')
+  element.classList.toggle("dark-mode");
+  
+  if (element.classList.contains('dark-mode')) {
+       btnDarkmode.innerHTML = '<i class="bi bi-brightness-high fs-2 text-light"></i>'
+  } else {
+    btnDarkmode.innerHTML = '<i class="bi bi-brightness-high-fill fs-2"></i>'
+  }
 }

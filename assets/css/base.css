@@ -5,6 +5,8 @@
 :root {
     --color-primary : #f51c40;
     --color-dark : #1a1a1a;
+    --color-gray : #404040;
+    --color-white : white;
 }
 
 
@@ -22,6 +24,12 @@ body {
     margin: 0;
     background-color: #f5f5f5;
     line-height: 28px;
+}
+
+.dark-mode {
+    background-color: #1a1a1a;
+    color: white;
+    --color-dark : var(--color-gray);
 }
 
 /* --------------------------------- */
@@ -74,6 +82,7 @@ body {
 .border-primary-5 {border: 5px solid var(--color-primary);}
 
 .push-effect {
+    background-color: var(--color-white);
     box-shadow: 5px 5px var(--color-primary);
     transition: all ease-in-out 0.1s;
 }

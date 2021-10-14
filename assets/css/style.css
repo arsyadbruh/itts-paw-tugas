@@ -12,7 +12,7 @@ a.navbar-brand {
 }
 
 a.nav-link {
-    color: var(--color-dark);
+    color: #1a1a1a;
     border: 1px solid var(--color-dark);
     padding: 5px 13px;
 }
@@ -76,5 +76,12 @@ iframe {
 .player-btn {
     background-color: var(--color-primary);
     color: white;
+}
+
+
+.toggle-light {
+    position: fixed;
+    top: 20px;
+    right: 20px;
 }
 
