@@ -1,5 +1,7 @@
 @import url(base.css);
 
+/* box untuk credit ke photographer ditaruh
+    overlay di bawah foto */
 .attribution {
     position: absolute;
     bottom: 0;

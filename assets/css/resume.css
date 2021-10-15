@@ -5,9 +5,6 @@
 /* --------------------------------- */
 
 
-
-
-
 h1 {
     margin: 0;
 }
@@ -29,6 +26,8 @@ a {
 /* --------------------------------- */
 /* Content style */
 /* --------------------------------- */
+
+/* navigasi menu */
 
 .btn-back {
     max-width: 700px;
@@ -53,6 +52,7 @@ a {
     box-shadow: 5px 5px;
 }
 
+/* header (name, avatar) */
 #profile {
     display: flex;
 }
@@ -73,6 +73,7 @@ a {
     border-radius: 50%;
 }
 
+/* data diri */
 .section-data {
     margin-top: 25px;
 }
@@ -81,6 +82,7 @@ a {
     margin-top: 50px;
 }
 
+/* skill section */
 .skill-list {
     display: inline-block;
     margin-bottom: 0;
@@ -91,6 +93,7 @@ a {
    width: 50%;
 }
 
+/* education section */
 .edu-list {
     margin-left: 20px;
     border-left: 1px solid var(--color-dark);
@@ -111,6 +114,7 @@ p.school-name {
     font-weight: 500;
 }
 
+/* create icon each education item */
 .border-icon {
     border-left: 8px solid var(--color-primary);
     position: absolute;
@@ -119,7 +123,7 @@ p.school-name {
     left: -4px;
 }
 
-
+/* experience section */
 .exp-item {
     position: relative;
     margin-top: 10px;
@@ -131,6 +135,7 @@ p.school-name {
 .company-name {font-size: 14px;}
 .work-time {margin-top: -9px;}
 
+/* icon for experience detail */
 .more-icon {
     position: absolute;
     right: 0;
@@ -150,10 +155,12 @@ p.school-name {
 
 }
 
+/* hide link when in desktop */
 .more-mobile {
     display: none;
 }
 
+/* contact section */
 .contact-item {
     position: relative;
     margin-top: 10px;   
@@ -184,12 +191,12 @@ p.school-name {
     transform: translate(0 , -50%);
 }
 
+/* footer */
 .footer {
     margin-top: 50px;
 }
 
 /* hide border container  */
-
 @media only screen and (max-width: 720px) {
     #container {
         border: none;
