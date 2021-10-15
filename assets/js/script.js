@@ -33,7 +33,7 @@ function darkMode() {
       `;
   } else {
     btnDarkmode.innerHTML = `
-      <i class="bi bi-brightness-high-fill fs-2"></i>
+      <i class="bi bi-moon-stars-fill fs-2"></i>
     `;
   }
 }
